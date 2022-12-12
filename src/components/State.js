@@ -27,7 +27,6 @@ export default function State() {
           example beneath we wrapped the setter Function into an anonymous
           function.
         </p>
-        <br />
         <p>
           Here's an example of how you might use the useState hook to increment
           a number through a counter:
