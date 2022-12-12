@@ -1,12 +1,14 @@
 import React from "react";
-// import callbackImage from "./images/callbackImage.jpg";
+import callbackImage from "../images/callbackImage.jpg";
+import { useNavigate } from "react-router-dom";
 
-export default function callbackhook() {
+export default function Callback() {
+  const navigate = useNavigate();
+
   return (
-    <>
+    <div className="hook-body">
       <div className="hook-header">
-        <h1>React Hooks</h1>
-        <h2>useCallback</h2>
+        <h1>useCallback</h1>
       </div>
       <div className="hook-content">
         <p>
@@ -18,7 +20,7 @@ export default function callbackhook() {
         </p>
         <br />
         <p>Here is an example of how useCallback can be used:</p>
-        {/* <img src={callbackImage} alt="useCallback-img" /> */}
+        <img src={callbackImage} alt="useCallback-img" />
         <p>
           In the code above, the handleClick function is defined using the
           useCallback hook. The second argument to useCallback is an array of
@@ -43,6 +45,7 @@ export default function callbackhook() {
           issues.
         </p>
       </div>
-    </>
+      <button onClick={() => navigate(-1)}>Back</button>
+    </div>
   );
 }

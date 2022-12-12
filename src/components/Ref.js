@@ -1,12 +1,14 @@
 import React from "react";
-import userefimage from "./images/userefimage.jpg";
+import userefimage from "../images/userefimage.jpg";
+import { useNavigate } from "react-router-dom";
 
-export default function refHook() {
+export default function Ref() {
+  const navigate = useNavigate();
+
   return (
-    <>
+    <div className="hook-body">
       <div className="hook-header">
-        <h1>React Hooks</h1>
-        <h2>useRef</h2>
+        <h1>useRef</h1>
       </div>
       <div className="hook-content">
         <p>
@@ -22,7 +24,7 @@ export default function refHook() {
           reference to a text input element:
         </p>
         <br />
-        <img src={userefimage} alt="" />
+        <img src={userefimage} alt="useref-img" />
         <br />
         <p>
           In this example, we create a useRef hook and store it in the inputRef
@@ -35,6 +37,7 @@ export default function refHook() {
           with it.
         </p>
       </div>
-    </>
+      <button onClick={() => navigate(-1)}>Back</button>
+    </div>
   );
 }
