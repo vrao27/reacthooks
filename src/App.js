@@ -1,7 +1,11 @@
 import "./App.css";
 import homeImage from "./images/hooks.jpg";
+import { Routes, Route } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function App() {
+  const navigate = useNavigate();
+
   return (
     <div className="App">
       <h1>5 cool React Hooks you need to learn before you die</h1>
@@ -14,30 +18,6 @@ function App() {
           write complex components that use state and lifecycle methods, without
           the need to write a class.
         </p>
-        <nav>
-          <ul>
-            <li>
-              <NavLink to="/" end>
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="usestate">useState</NavLink>
-            </li>
-            <li>
-              <Link to="useeffect">useEffect</Link>
-            </li>
-            <li>
-              <Link to="useref">useRef</Link>
-            </li>
-            <li>
-              <Link to="usecallback">useCallback</Link>
-            </li>
-            <li>
-              <Link to="usereducer">useReducer</Link>
-            </li>
-          </ul>
-        </nav>
         <br />
         <img src={homeImage} alt="use-state-img" />
         <p>
@@ -49,11 +29,21 @@ function App() {
         </p>
       </div>
       <div id="buttoncontainer">
-        <button className="button">useState</button>
-        <button className="button">useEffect</button>
-        <button className="button">useRef</button>
-        <button className="button">useReducer</button>
-        <button className="button">useCallback</button>
+        <button className="button" onClick={() => navigate("/usestate")}>
+          useState
+        </button>
+        <button className="button" onClick={() => navigate("/useeffect")}>
+          useEffect
+        </button>
+        <button className="button" onClick={() => navigate("/useref")}>
+          useRef
+        </button>
+        <button className="button" onClick={() => navigate("/usereducer")}>
+          useReducer
+        </button>
+        <button className="button" onClick={() => navigate("/usecallback")}>
+          useCallback
+        </button>
       </div>
     </div>
   );

@@ -45,6 +45,39 @@ body {
   color: whitesmoke;
   font-size: 1.2em;
   margin: 1%;
+  cursor: pointer;
 }
 
-/* Artikel */ ;
+.button:hover {
+  background-color: #1bbbfb;
+}
+
+/* articles */
+
+.hook-body {
+  text-align: center;
+  width: 60%;
+  margin: 50px auto;
+  background-color: whitesmoke;
+  border-radius: 2%;
+  padding: 20px 40px;
+}
+
+.hook-body img {
+  width: 70%;
+  min-width: 280px;
+}
+
+.hook-body button {
+  height: 20px;
+  background-color: #056daf;
+  border: 0px;
+  border-radius: 10%;
+  color: whitesmoke;
+  margin: 1%;
+  cursor: pointer;
+}
+
+.hook-body button:hover {
+  background-color: #1bbbfb;
+}
