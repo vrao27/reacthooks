@@ -18,7 +18,6 @@ export default function Ref() {
           value or checked state in the case of a form input, or to call its
           methods.
         </p>
-        <br />
         <p>
           Here's an example of how you might use the useRef hook to store a
           reference to a text input element:

@@ -18,7 +18,6 @@ export default function Callback() {
           performance in React components that have expensive calculations or
           operations that are triggered by React events.
         </p>
-        <br />
         <p>Here is an example of how useCallback can be used:</p>
         <img src={callbackImage} alt="useCallback-img" />
         <p>

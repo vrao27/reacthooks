@@ -69,7 +69,8 @@ body {
 }
 
 .hook-body button {
-  height: 20px;
+  height: 25px;
+  width: 50px;
   background-color: #056daf;
   border: 0px;
   border-radius: 10%;
