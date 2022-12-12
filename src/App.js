@@ -18,6 +18,7 @@ function App() {
           write complex components that use state and lifecycle methods, without
           the need to write a class.
         </p>
+        
         <br />
         <img src="./images/homeImage" alt="use-state-img" />
         <p>
