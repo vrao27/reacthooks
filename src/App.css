@@ -14,7 +14,8 @@ body {
 }
 
 .App img {
-  height: 300px;
+  width: 40%;
+  min-width: 280px;
 }
 
 .App h1 {
@@ -29,8 +30,10 @@ body {
 #buttoncontainer {
   display: flex;
   justify-content: center;
-  gap: 5%;
+  gap: 4%;
   margin-top: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .button {
@@ -41,6 +44,7 @@ body {
   border-radius: 10%;
   color: whitesmoke;
   font-size: 1.2em;
+  margin: 1%;
 }
 
 /* Artikel */ ;
