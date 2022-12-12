@@ -1,9 +1,5 @@
 import "./App.css";
-//import homeImage from "./images/homeImage";
-
-// function homeImage() {
-//   return <img src={homeImage} alt="use-state-img" />;
-// }
+import homeImage from "./images/homeImage.jpg";
 
 function App() {
   return (
@@ -19,7 +15,7 @@ function App() {
           the need to write a class.
         </p>
         <br />
-        <img src="./images/homeImage" alt="use-state-img" />
+        <img src={homeImage} alt="use-state-img" />
         <p>
           In this example, the useState hook is used to add state to the
           MyComponent function component. The useState hook returns an array
