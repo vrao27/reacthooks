@@ -1,5 +1,5 @@
 import React from "react";
-import callbackImage from "./images/callbackImage.jpg";
+import callbackImage from "../images/callbackImage.jpg";
 
 export default function callbackhook() {
   return (

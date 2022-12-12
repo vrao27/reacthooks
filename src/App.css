@@ -10,7 +10,7 @@ body {
   margin: 50px auto;
   background-color: whitesmoke;
   border-radius: 2%;
-  padding: 2%;
+  padding: 20px 40px;
 }
 
 .App img {
@@ -19,7 +19,7 @@ body {
 }
 
 .App h1 {
-  font-size: 2.5em;
+  font-size: 2.3em;
   text-transform: uppercase;
 }
 

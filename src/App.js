@@ -4,7 +4,7 @@ import homeImage from "./images/hooks.jpg";
 function App() {
   return (
     <div className="App">
-      <h1>5 React Hooks you need to learn before you die</h1>
+      <h1>5 cool React Hooks you need to learn before you die</h1>
       <div className="home-content">
         <p>
           React hooks are a new feature in React 16.8 that allow you to use
@@ -14,7 +14,7 @@ function App() {
           write complex components that use state and lifecycle methods, without
           the need to write a class.
         </p>
-        
+
         <br />
         <img src={homeImage} alt="use-state-img" />
         <p>
