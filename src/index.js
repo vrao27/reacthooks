@@ -15,11 +15,11 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route index element={<App />}/>
-      <Route path="useState" element={<State />} />
-      <Route path="useEffect" element={<Effect />} />
-      <Route path="useRef" element={<Ref />}/>
-        <Route path="useCallback" element={<Callback />} />
-        <Route path="useReducer" element={<Reducer />} />
+      <Route path="usestate" element={<State />} />
+      <Route path="useeffect" element={<Effect />} />
+      <Route path="useref" element={<Ref />}/>
+        <Route path="usecallback" element={<Callback />} />
+        <Route path="usereducer" element={<Reducer />} />
       
     </Routes>
   </BrowserRouter>

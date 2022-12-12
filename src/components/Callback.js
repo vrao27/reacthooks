@@ -1,5 +1,5 @@
 import React from "react";
-import callbackImage from "./images/callbackImage.jpg";
+// import callbackImage from "./images/callbackImage.jpg";
 
 export default function callbackhook() {
   return (
@@ -18,7 +18,7 @@ export default function callbackhook() {
         </p>
         <br />
         <p>Here is an example of how useCallback can be used:</p>
-        <img src={callbackImage} alt="useCallback-img" />
+        {/* <img src={callbackImage} alt="useCallback-img" /> */}
         <p>
           In the code above, the handleClick function is defined using the
           useCallback hook. The second argument to useCallback is an array of

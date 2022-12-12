@@ -1,5 +1,6 @@
 import "./App.css";
 import homeImage from "./images/homeImage.jpg";
+import {Link, NavLink} from 'react-router-dom'
 
 function App() {
   return (
@@ -14,7 +15,17 @@ function App() {
           write complex components that use state and lifecycle methods, without
           the need to write a class.
         </p>
-        
+        <nav>
+      <ul>
+        <li><NavLink to="/" end>Home</NavLink></li>
+        <li><NavLink to="usestate">useState</NavLink></li>
+        <li><Link to="useeffect">useEffect</Link></li>
+        <li><Link to="useref">useRef</Link></li>
+        <li><Link to="usecallback">useCallback</Link></li>
+        <li><Link to="usereducer">useReducer</Link></li>
+      </ul>
+     
+    </nav>
         <br />
         <img src={homeImage} alt="use-state-img" />
         <p>
