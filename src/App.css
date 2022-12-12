@@ -1,12 +1,12 @@
 /* Homepage */
 
 body {
-  background-color: darkslategray;
+  background-color: #1d283e;
 }
 
 .App {
   text-align: center;
-  width: 70%;
+  width: 60%;
   margin: 50px auto;
   background-color: whitesmoke;
   border-radius: 2%;
@@ -14,7 +14,7 @@ body {
 }
 
 .App img {
-  height: 500px;
+  height: 300px;
 }
 
 .App h1 {
@@ -22,16 +22,21 @@ body {
   text-transform: uppercase;
 }
 
+.App p {
+  font-size: 1.2em;
+}
+
 #buttoncontainer {
   display: flex;
   justify-content: center;
   gap: 5%;
+  margin-top: 30px;
 }
 
 .button {
   height: 50px;
   width: 150px;
-  background-color: #5f8080;
+  background-color: #056daf;
   border: 0px;
   border-radius: 10%;
   color: whitesmoke;
