@@ -1,5 +1,5 @@
 import "./App.css";
-//import homeImage from "./images/homeImage";
+import homeImage from "./images/homeImage.png";
 
 // function homeImage() {
 //   return <img src={homeImage} alt="use-state-img" />;
@@ -19,7 +19,7 @@ function App() {
           the need to write a class.
         </p>
         <br />
-        <img src="./images/homeImage" alt="use-state-img" />
+        <img src={homeImage} alt="use-state-img" />
         <p>
           In this example, the useState hook is used to add state to the
           MyComponent function component. The useState hook returns an array
@@ -33,6 +33,13 @@ function App() {
           function components. You can also create your own custom hooks to
           reuse stateful logic between components.
         </p>
+      </div>
+      <div id="buttoncontainer">
+        <button className="button">useState</button>
+        <button className="button">useEffect</button>
+        <button className="button">useRef</button>
+        <button className="button">useReducer</button>
+        <button className="button">useCallback</button>
       </div>
     </div>
   );
